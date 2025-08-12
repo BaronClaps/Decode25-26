@@ -5,7 +5,7 @@ repositories {
     maven { url = 'https://mymaven.bylazar.com/dev' }
 }
 configurations.configureEach {
-    resolutionStrategy.cacheChangingModulesFor 1000, 'minutes'
+    resolutionStrategy.cacheChangingModulesFor 0, 'minutes'
 }
 
 dependencies {

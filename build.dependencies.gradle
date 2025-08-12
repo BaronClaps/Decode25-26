@@ -5,7 +5,7 @@ repositories {
     maven { url = 'https://mymaven.bylazar.com/dev' }
 }
 configurations.configureEach {
-    resolutionStrategy.cacheChangingModulesFor 1000, 'minutes'
+    resolutionStrategy.cacheChangingModulesFor 0, 'minutes' // you want to put this to 0 to get a new update - 1000 when sending to robot
 }
 
 dependencies {
